@@ -131,7 +131,8 @@ fi
 . "$HOME/.cargo/env"
 # adding fish
 #neofetch
-# alacritty
+#alacritty
+
 fish
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
