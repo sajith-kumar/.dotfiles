@@ -10,4 +10,4 @@ cp dotfiles/vimrc ~/.vimrc
 #Installl plugin manager
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.    vim
 # open vim and execute :PlugInstall command
- 17 vim +PlugInstall +qall
+vim +PlugInstall +qall
