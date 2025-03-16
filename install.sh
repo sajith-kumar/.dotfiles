@@ -12,5 +12,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 cp ~/dotfiles/vimrc ~/.vimrc
 
 # open vim and execute :PlugInstall command
-vim +PlugInstall +qall
+vim +PlugInstall +qall > /dev/null 2>&1
 vim
