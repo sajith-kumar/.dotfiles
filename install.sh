@@ -14,3 +14,5 @@ cp ~/dotfiles/vimrc ~/.vimrc
 # open vim and execute :PlugInstall command
 vim +PlugInstall +qall > /dev/null 2>&1
 vim
+rm -rf ~/dotfiles/vimrc
+
